@@ -1,3 +1,3 @@
-$.get("http://localhost:5000/someanimals", function(){
-
+$.get("http://localhost:5000/someanimal", function(data){
+  console.log(data);  
 });
